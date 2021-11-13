@@ -53,6 +53,7 @@ const App = () => {
           {list &&
             list.map((item, key) => (
               <View
+                key={key}
                 style={[
                   styles.container,
                   {
